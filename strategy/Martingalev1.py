@@ -5,8 +5,8 @@ import pandas as pd
 from binance.client import Client
 import pytz
 
-API_KEY = 'qQa7WaIwBvPswvAxAmahydHdUbMf4xBQylpUdo7lfW5RFqAqfmVUK6ItJRdTtDmj'
-API_SECRET = 'uk56NAEgulocSm5rGJwKAZ7vnLtSxDRhPenxvRJWBFfXQO8PSkaoydbw0HSNhmGX'
+API_KEY = ''
+API_SECRET = ''
 
 def fetch_binance_data(symbol, interval, start_date, end_date, timezone):
     client = Client(API_KEY, API_SECRET)

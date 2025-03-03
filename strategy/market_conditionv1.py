@@ -2,8 +2,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from binance.client import Client
 
-API_KEY = 'qQa7WaIwBvPswvAxAmahydHdUbMf4xBQylpUdo7lfW5RFqAqfmVUK6ItJRdTtDmj'
-API_SECRET = 'uk56NAEgulocSm5rGJwKAZ7vnLtSxDRhPenxvRJWBFfXQO8PSkaoydbw0HSNhmGX'
+API_KEY = ''
+API_SECRET = ''
 
 client = Client(API_KEY, API_SECRET)
 
